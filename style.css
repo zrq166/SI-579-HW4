@@ -1,0 +1,10 @@
+.completed {
+    color: gray;
+}
+.completed::before {
+    content: "(completed) ";
+}
+
+#notice{
+    border: 1px solid blue;
+}
